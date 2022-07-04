@@ -1,0 +1,442 @@
+/* source-serif-pro-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-serif-pro-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-600.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-serif-pro-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-serif-pro-900 - latin_cyrillic */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/source-serif-pro-v11-latin_cyrillic-900.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Source Serif Pro', sans-serif;
+}
+
+.container {
+  /* max-width: 1140px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1,
+span {
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 600;
+  user-select: none;
+}
+
+h2 {
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+}
+
+.top {
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  max-width: 1140px;
+  width: 80%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 0;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card__list {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.card__list_h2 {
+  max-width: 450px;
+}
+
+.card__list_h4 {
+  max-width: 850px;
+}
+
+.card__list_h6 {
+  max-width: 1250px;
+}
+
+.card__list_h8 {
+  max-width: 1650px;
+}
+
+.card__list_h10 {
+  max-width: 2050px;
+}
+
+
+
+
+.card__item {
+  /* height: 185px;
+  min-width: 267.5px; */
+
+  height: 267.5px;
+  min-width: 185px;
+
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 130px;
+  outline: 1px solid black;
+  color: transparent;
+  user-select: none;
+}
+
+.card__item_background {
+  background-image: url('../img/outsidecard.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 20;
+
+}
+
+.aceHearts {
+  background-image: url('../img/hearts/aceHearts.png');
+}
+
+.kingHearts {
+  background-image: url('../img/hearts/kingHearts.png');
+}
+
+.queenHearts {
+  background-image: url('../img/hearts/queenHearts.png');
+}
+
+.jackHearts {
+  background-image: url('../img/hearts/jackHearts.png');
+}
+
+.hearts10 {
+  background-image: url('../img/hearts/hearts10.png');
+}
+
+.hearts9 {
+  background-image: url('../img/hearts/hearts9.png');
+}
+
+.hearts8 {
+  background-image: url('../img/hearts/hearts8.png');
+}
+
+.hearts7 {
+  background-image: url('../img/hearts/hearts7.png');
+}
+
+.hearts6 {
+  background-image: url('../img/hearts/hearts6.png');
+}
+
+.hearts5 {
+  background-image: url('../img/hearts/hearts5.png');
+}
+
+.hearts4 {
+  background-image: url('../img/hearts/hearts4.png');
+}
+
+.hearts3 {
+  background-image: url('../img/hearts/hearts3.png');
+}
+
+.hearts2 {
+  background-image: url('../img/hearts/hearts2.png');
+}
+
+
+
+
+.aceClubs {
+  background-image: url('../img/clubs/aceClubs.png');
+}
+
+.kingClubs {
+  background-image: url('../img/clubs/kingClubs.png');
+}
+
+.queenClubs {
+  background-image: url('../img/clubs/queenClubs.png');
+}
+
+.jackClubs {
+  background-image: url('../img/clubs/jackClubs.png');
+}
+
+.clubs10 {
+  background-image: url('../img/clubs/clubs10.png');
+}
+
+.clubs9 {
+  background-image: url('../img/clubs/clubs9.png');
+}
+
+.clubs8 {
+  background-image: url('../img/clubs/clubs8.png');
+}
+
+.clubs7 {
+  background-image: url('../img/clubs/clubs7.png');
+}
+
+.clubs6 {
+  background-image: url('../img/clubs/clubs6.png');
+}
+
+.clubs5 {
+  background-image: url('../img/clubs/clubs5.png');
+}
+
+.clubs4 {
+  background-image: url('../img/clubs/clubs4.png');
+}
+
+.clubs3 {
+  background-image: url('../img/clubs/clubs3.png');
+}
+
+.clubs2 {
+  background-image: url('../img/clubs/clubs2.png');
+}
+
+
+
+.aceDiamonds {
+  background-image: url('../img/diamonds/aceDiamonds.png');
+}
+
+.kingDiamonds {
+  background-image: url('../img/diamonds/kingDiamonds.png');
+}
+
+.queenDiamonds {
+  background-image: url('../img/diamonds/queenDiamonds.png');
+}
+
+.jackDiamonds {
+  background-image: url('../img/diamonds/jackDiamonds.png');
+}
+
+.diamonds10 {
+  background-image: url('../img/diamonds/diamonds10.png');
+}
+
+.diamonds9 {
+  background-image: url('../img/diamonds/diamonds9.png');
+}
+
+.diamonds8 {
+  background-image: url('../img/diamonds/diamonds8.png');
+}
+
+.diamonds7 {
+  background-image: url('../img/diamonds/diamonds7.png');
+}
+
+.diamonds6 {
+  background-image: url('../img/diamonds/diamonds6.png');
+}
+
+.diamonds5 {
+  background-image: url('../img/diamonds/diamonds5.png');
+}
+
+.diamonds4 {
+  background-image: url('../img/diamonds/diamonds4.png');
+}
+
+.diamonds3 {
+  background-image: url('../img/diamonds/diamonds3.png');
+}
+
+.diamonds2 {
+  background-image: url('../img/diamonds/diamonds2.png');
+}
+
+
+
+.aceSpades {
+  background-image: url('../img/spades/aceSpades.png');
+}
+
+.kingSpades {
+  background-image: url('../img/spades/kingSpades.png');
+}
+
+.queenSpades {
+  background-image: url('../img/spades/queenSpades.png');
+}
+
+.jackSpades {
+  background-image: url('../img/spades/jackSpades.png');
+}
+
+.spades10 {
+  background-image: url('../img/spades/spades10.png');
+}
+
+.spades9 {
+  background-image: url('../img/spades/spades9.png');
+}
+.spades8 {
+  background-image: url('../img/spades/spades8.png');
+}
+.spades7 {
+  background-image: url('../img/spades/spades7.png');
+}
+.spades6 {
+  background-image: url('../img/spades/spades6.png');
+}
+.spades5 {
+  background-image: url('../img/spades/spades5.png');
+}
+.spades4 {
+  background-image: url('../img/spades/spades4.png');
+}
+.spades3 {
+  background-image: url('../img/spades/spades3.png');
+}
+.spades2 {
+  background-image: url('../img/spades/spades2.png');
+}
+
+
+
+.button {
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 5px #83889e;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+  z-index: 21;
+}
+
+.button:hover {
+  background-color: #dddddd;
+}
+
+.button:active {
+  background-color: white;
+  box-shadow: none;
+}
+
+.button_start {
+  padding: 12px;
+  z-index: 1;
+}
+
+.endgame::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../img/endGame.jpeg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 9;
+}
+
+.endgame_button {
+  position: absolute;
+  top: 100px;
+}
+
+
+
+.center {
+  justify-content: center;
+}
+
+.none {
+  display: none;
+}
+
+.done,
+.open {
+  pointer-events: none;
+}
